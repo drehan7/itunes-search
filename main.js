@@ -29,6 +29,7 @@ moreButton.addEventListener('click', e => {
 
         console.log('limit',limit+25)
         getSongs(limit+25)
+        window.scrollTo(0,document.body.scrollHeight);
     } catch (error) {
         console.log(error)
     }
